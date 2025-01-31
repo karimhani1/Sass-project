@@ -1,0 +1,29 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 1.5rem;
+position: relative;
+bottom: 300px;
+row-gap: 5rem;
+}
+
+
+.looping {
+    border-radius: 35px;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #f4f2ee;
+}
+
+.image {
+    width: 100%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.name {
+transform: translateY(-90%);
+font-weight: 600;
+letter-spacing: .05em;
+}

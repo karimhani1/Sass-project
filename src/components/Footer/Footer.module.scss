@@ -1,0 +1,67 @@
+$main-color:rgb(255 255 255 );
+
+.bg {
+background-color: $main-color;
+}
+
+footer {
+    z-index: 99999;
+  
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.container {
+    padding: 1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+    
+}
+.route {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: rgb(29 78 216);
+    margin-right: 50px;
+    
+}
+
+.recipe {
+    margin-left: .75rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(107 114 128);
+}
+
+.space {
+   width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
