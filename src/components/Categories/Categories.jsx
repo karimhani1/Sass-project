@@ -26,7 +26,7 @@ function getCategories(){
    <>
    {categories.map((categories) => <ul key={categories.idCategory} className={style.styling}>
     <li className={style.category}>
-        <Link to={`products/${categories.strCategory}`}>{categories.strCategory}</Link>
+        <Link to={`/meals/${categories.strCategory}`}>{categories.strCategory}</Link>
     </li>
    </ul>)}
    
